@@ -1,0 +1,55 @@
+#nav-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.button-container {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 65vw;
+    height: 6.5vh;
+    margin: 50px;
+    background-color: #ff70db;
+    button {
+        cursor: pointer;
+        &:hover {
+            filter: invert(1);
+            transition: 400ms ease-in-out;
+        }
+    }
+}
+.font-face-at {
+    h3 {
+        font-family: "Atrament";
+        font-size: 31px;
+        font-weight: 600;
+        color: black;
+    }
+}
+.btn-experience.active h3 {
+    color: #75d5fd;
+    transition: 350ms ease-in-out;
+}
+.btn-tickets.active h3 {
+    color: #75d5fd;
+    transition: 350ms ease-in-out;
+}
+.btn-events.active h3 {
+    color: #75d5fd;
+    transition: 350ms ease-in-out;
+}
+.btn-about.active h3 {
+    color: #75d5fd;
+    transition: 350ms ease-in-out;
+}
+.btn-info.active h3 {
+    color: #75d5fd;
+    transition: 350ms ease-in-out;
+}
+.btn-shop.active h3 {
+    color: #75d5fd;
+    transition: 350ms ease-in-out;
+}

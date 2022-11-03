@@ -1,0 +1,72 @@
+#homepage-container {
+    // position: relative;
+    width: 100vw;
+    height: 100vh;
+    text-transform: uppercase;
+}
+.background-image {
+    // position: relative;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rtxp-logo {
+    position: absolute;
+    width: 40vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    img {
+        width: 100%;
+    }
+}
+.tickets-sticker {
+    position: absolute;
+    width: 18vw;
+    left: 50%;
+    top: 67.5%;
+    transform: translate(-50%, -67.5%);
+}
+.blue-cross {
+    position: absolute;
+    width: 9vw;
+    bottom: 0;
+    margin: 0px 0px 60px 95px;
+    z-index: 1;
+    img {
+        width: 100%;
+    }
+}
+.red-arrows {
+    position: absolute;
+    width: 9vw;
+    bottom: 0;
+    margin: 0px 0px 145px 40px;
+}
+.fragile-sticker {
+    position: absolute;
+    width: 22.5vw;
+    bottom: 0;
+    right: 0;
+    margin: 0px 40px 25px 0px;
+}
+.socials-container {
+    position: absolute;
+    display: flex;
+    width: 85px;
+    right: 0;
+    margin: 50px 50px 0px 0px;
+    img {
+        width: 100%;
+        margin-right: 5px;
+    }
+}
+.menu-sticker {
+    position: absolute;
+    width: 7.5vw;
+    top: 0;
+    left: 0;
+    margin: 50px 0px 0px 100px;
+}
