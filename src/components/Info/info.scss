@@ -1,6 +1,120 @@
 #info-container {
-    position: relative;
+    position: absolute; //// WAS RELATIVE
     width: 100vw;
     height: 100vh;
-    background-color: rgb(127, 212, 255);
+}
+.background-image-info {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: 30% 100%;
+    background-repeat: no-repeat;
+    background-size: 115% auto;
+}
+.faq-container {
+    position: relative; //// WAS ABSOLUTE
+    display: flex;
+    align-items: center;
+    width: 65vw;
+    // height: auto;
+    height: 75vh;
+    margin: 125px auto;
+    // left: 50%;
+    // top: 65%;
+    // transform: translate(-50%, -65%);
+    background: #c5e3f3;
+}
+.faqs,
+.faqs-r {
+    width: 50%;
+    max-width: 768px;
+    cursor: pointer;
+    // margin: 0 auto;
+    // padding: 15px;
+}
+.faqs .faq,
+.faqs-r .faq-r {
+    margin: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    background: #98d4f4;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.faqs .faq .faq-question,
+.faqs-r .faq-r .faq-r-question {
+    position: relative;
+    font-size: 28px;
+    font-weight: 600;
+    padding-right: 80px;
+    transition: all 0.5s ease;
+    text-transform: uppercase;
+    // opacity: 0.95;
+    // &:hover {
+    // opacity: 1;
+    // color: #FF70DB;
+    // }
+}
+.faqs .faq.open .faq-question,
+.faqs-r .faq-r.open .faq-r-question {
+    color: #ff70db;
+}
+.faqs .faq .faq-question::after,
+.faqs-r .faq-r .faq-r-question::after {
+    content: "+";
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    // width: 30px;
+    // height: 30px;
+    transition: all 0.2s ease;
+    color: #0089f9;
+    text-transform: full-width; ///switch of for smaller "+"
+}
+.faqs .faq .faq-answer,
+.faqs-r .faq-r .faq-r-answer {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.2s ease;
+}
+.faqs .faq.open .faq-question,
+.faqs-r .faq-r.open .faq-r-question {
+    margin-bottom: 15px;
+}
+.faqs .faq.open .faq-question::after,
+.faqs-r .faq-r.open .faq-r-question::after {
+    content: "-";
+    color: #ff70db;
+}
+.faqs .faq.open .faq-answer,
+.faqs-r .faq-r.open .faq-r-answer {
+    max-height: 1000px;
+    opacity: 1;
+}
+.blue-cross-info {
+    position: absolute;
+    width: 10vw;
+    bottom: 0;
+    margin: 0px 0px 80px 75px;
+    transform: rotate(120deg);
+    img {
+        width: 100%;
+    }
+}
+.purple-arrows {
+    position: absolute;
+    width: 14vw;
+    right: 0;
+    bottom: 0;
+    margin: 0px 50px 250px 0px;
+}
+.chat-icon {
+    position: absolute;
+    width: 7vw;
+    right: 0;
+    bottom: 0;
+    margin: 0px 75px 100px 0px;
 }

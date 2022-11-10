@@ -1,6 +1,57 @@
 #experience-container {
-    position: relative;
+    position: absolute; //// WAS RELATIVE
     width: 100vw;
     height: 100vh;
-    background-color: blanchedalmond;
+}
+.background-image-exp {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.monet-container {
+    position: relative; //// WAS ABSOLUTE
+    width: 65vw;
+    // height: 75vh;
+    height: 67vh;
+    margin: 125px auto;
+    // left: 50%;
+    // top: 50%;
+    // transform: translate(-50%, -50%);
+    background: #c5e3f3;
+}
+.text-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 5px;
+}
+.image-container {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 30px;
+}
+.red-circle {
+    position: absolute;
+    width: 10vw;
+    bottom: 0;
+    left: 0;
+    margin: 0px 0px 160px 125px;
+}
+.umbrella-sticker {
+    position: absolute;
+    width: 8.5vw;
+    right: 0;
+    bottom: 0;
+    margin: 0px 140px 300px 0px;
+}
+.fragile-sticker-exp {
+    position: absolute;
+    width: 22.5vw;
+    bottom: 0;
+    left: 0;
+    margin: 0px 0px 25px 40px;
 }

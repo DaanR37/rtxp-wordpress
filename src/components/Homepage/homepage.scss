@@ -4,7 +4,7 @@
     height: 100vh;
     text-transform: uppercase;
 }
-.background-image {
+.background-image-hp {
     // position: relative;
     height: 100%;
     width: 100%;
@@ -45,28 +45,10 @@
     bottom: 0;
     margin: 0px 0px 145px 40px;
 }
-.fragile-sticker {
+.fragile-sticker-hp {
     position: absolute;
     width: 22.5vw;
     bottom: 0;
     right: 0;
     margin: 0px 40px 25px 0px;
-}
-.socials-container {
-    position: absolute;
-    display: flex;
-    width: 85px;
-    right: 0;
-    margin: 50px 50px 0px 0px;
-    img {
-        width: 100%;
-        margin-right: 5px;
-    }
-}
-.menu-sticker {
-    position: absolute;
-    width: 7.5vw;
-    top: 0;
-    left: 0;
-    margin: 50px 0px 0px 100px;
 }
