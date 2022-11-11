@@ -1,5 +1,5 @@
 #about-container {
-    position: absolute;  //// WAS RELATIVE
+    position: absolute; //// WAS RELATIVE
     width: 100vw;
     height: 100vh;
 }
@@ -13,15 +13,13 @@
     transform: rotate(180deg);
 }
 .google-map-container {
-    position: relative;  //// WAS ABSOLUTE
+    position: relative;
+    display: flex;
+    align-items: center;
     width: 65vw;
-    // height: 67vh;
-    // height: auto;
-    height: 75vh;
+    height: auto;
+    // height: 77vh;
     margin: 125px auto;
-    // left: 50%;
-    // top: 65%;
-    // transform: translate(-50%, -65%);
     background: #c5e3f3;
 }
 .contact-details {
@@ -43,6 +41,17 @@
     p {
         margin: 0;
         font-size: 17px;
+    }
+}
+.location-map {
+    position: absolute;
+    // width: 40vw;
+    width: 600px;
+    right: 0;
+    padding: 15px;
+    margin: 15px;
+    img {
+        width: 100%;
     }
 }
 .pink-arrows-icon {

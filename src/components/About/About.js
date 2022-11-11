@@ -60,6 +60,9 @@ export default function About() {
               te bevestigen.
             </p>
           </div>
+          <div className="location-map">
+            <img src="images/location-map.svg" alt="location map" />
+          </div>
         </div>
 
         <div className="pink-arrows-icon">

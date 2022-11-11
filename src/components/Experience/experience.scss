@@ -12,26 +12,27 @@
     background-size: cover;
 }
 .monet-container {
-    position: relative; //// WAS ABSOLUTE
+    position: relative;
+    display: flex;
+    // align-items: center;
     width: 65vw;
-    // height: 75vh;
-    height: 67vh;
+    height: auto;
+    // height: 77vh;
     margin: 125px auto;
-    // left: 50%;
-    // top: 50%;
-    // transform: translate(-50%, -50%);
     background: #c5e3f3;
 }
 .text-container {
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin: 5px;
+    // position: absolute;
+    width: 45vw;
+    // max-width: 330px;  //// OPTIONEEL
+    // left: 0;
+    // top: 0;
+    // margin: 5px;
 }
 .image-container {
-    position: absolute;
-    right: 0;
-    top: 0;
+    // position: absolute;
+    // right: 0;
+    // top: 0;
     margin: 30px;
 }
 .red-circle {
@@ -39,7 +40,7 @@
     width: 10vw;
     bottom: 0;
     left: 0;
-    margin: 0px 0px 160px 125px;
+    margin: 0px 0px 200px 125px;
 }
 .umbrella-sticker {
     position: absolute;

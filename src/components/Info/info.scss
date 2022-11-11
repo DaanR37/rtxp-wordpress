@@ -12,16 +12,13 @@
     background-size: 115% auto;
 }
 .faq-container {
-    position: relative; //// WAS ABSOLUTE
+    position: relative;
     display: flex;
     align-items: center;
     width: 65vw;
-    // height: auto;
-    height: 75vh;
+    height: auto; //// CHANGE TO VH IF IT JUMPS TOO MUCH
+    // height: 75vh;
     margin: 125px auto;
-    // left: 50%;
-    // top: 65%;
-    // transform: translate(-50%, -65%);
     background: #c5e3f3;
 }
 .faqs,
@@ -29,6 +26,7 @@
     width: 50%;
     max-width: 768px;
     cursor: pointer;
+    // margin: 10px;
     // margin: 0 auto;
     // padding: 15px;
 }
